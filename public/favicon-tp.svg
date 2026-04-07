@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Transparent background -->
+  
+  <!-- Rounded square base -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="#0f0f0f"/>
+
+  <!-- T — horizontal bar -->
+  <rect x="10" y="16" width="20" height="5" rx="2" fill="#f5f5f5"/>
+  <!-- T — vertical stem -->
+  <rect x="17.5" y="16" width="5" height="22" rx="2" fill="#f5f5f5"/>
+
+  <!-- P — vertical stem -->
+  <rect x="34" y="16" width="5" height="22" rx="2" fill="#f5f5f5"/>
+  <!-- P — top bump (rounded rectangle approach) -->
+  <rect x="34" y="16" width="12" height="5" rx="2" fill="#f5f5f5"/>
+  <rect x="34" y="27" width="12" height="5" rx="2" fill="#f5f5f5"/>
+  <rect x="43" y="16" width="5" height="16" rx="2" fill="#f5f5f5"/>
+
+  <!-- Accent dot -->
+  <circle cx="32" cy="53" r="3" fill="#6ee7b7"/>
+</svg>
