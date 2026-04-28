@@ -1,4 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import {FaDownload } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -59,14 +60,24 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Tarun, a software engineer transitioning into AI, focused on building smart, real-world applications using machine learning and modern web technologies..
           </p>
+          <div className=" flex flex-col lg:flex-row !gap-4">
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/Tarun_Pathuri.pdf" download="Tarun_Pathuri_Resume.pdf">
+              <MagicButton
+                title="Download my resume"
+                icon={<FaDownload/>}
+                position="right"
+              />
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
