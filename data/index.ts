@@ -257,11 +257,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Verifany – Income Verification Platform",
-    des: "A C2C income verification platform enabling employers and individuals to verify financial data securely and efficiently.",
-    img: "/p1.svg",
-    iconLists: ["/spring-boot.svg","/nextjs.svg","/mysql.svg"],
-    link: "https://verifany.com/lander",
+    title: "Skill Gap Analyzer",
+    des: "An AI-powered resume intelligence platform that analyzes resumes using NLP and BERT-based classification to predict suitable job roles, identify skill gaps, and recommend personalized upskilling paths — deployed on AWS SageMaker with scalable inference endpoints.",
+    img: "/sga.png",
+    iconLists: ["/icons8-aws.svg","/SageMaker.svg"],
+    link: "http://skill-gap-frontend.s3-website-us-east-1.amazonaws.com/",
   },
   {
     id: 2,
